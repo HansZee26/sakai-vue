@@ -131,6 +131,11 @@ const router = createRouter({
             path: '/auth/error',
             name: 'error',
             component: () => import('@/views/pages/auth/Error.vue')
+        },
+        {
+            path: '/character/CharacterMenu',
+            name: 'Character',
+            component: () => import('@/views/pages/character/CharacterMenu.vue')
         }
     ]
 });
